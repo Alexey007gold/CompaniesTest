@@ -1,0 +1,43 @@
+#edit {
+    position: fixed;
+    left: 5%;
+    top: 55px;
+    padding: 10px 10px 10px 10px;
+    background-color: #94856b;
+    background-size: 50px;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px #888888;
+}
+#header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height:20px;
+    border-bottom: 1px solid black;
+}
+#edit_label {
+    margin: 5px;
+}
+#content {
+    margin-top: 20px;
+}
+#buttons {
+    float: right;
+}
+.butt {
+    color: dodgerblue;
+    cursor: pointer;
+}
+input[value="x"]{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25px;
+    font-size:12px;
+}
+input[type="text"], input[type="number"] {
+    float: right;
+    margin-left: 15px;
+}
